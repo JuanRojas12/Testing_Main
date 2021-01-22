@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.680485">
+    <testcase classname="Login Pagina" name="Iniciar Sesion con credenciales correctas" time="0.680485">
+        <failure message="java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;Pages.Login.driver&quot; is null&#13;&#10;&#9;at Pages.Login.abrirOpensourcecmsURL(Login.java:24)&#13;&#10;&#9;at Definition_Test.Definition_Test_Google.abre_la_pagina_web_opensourcecms(Definition_Test_Google.java:23)&#13;&#10;&#9;at ✽.When : Abre la pagina web opensourcecms(./src/test/resources/Feactures/google.feature:6)&#13;&#10;"><![CDATA[When : Abre la pagina web opensourcecms.....................................failed
+Then : El usuario ingresa las credenciales y presiona el boton de iniciar sesion.skipped
+And : El usuario se logea correctamente.....................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "Pages.Login.driver" is null
+	at Pages.Login.abrirOpensourcecmsURL(Login.java:24)
+	at Definition_Test.Definition_Test_Google.abre_la_pagina_web_opensourcecms(Definition_Test_Google.java:23)
+	at ✽.When : Abre la pagina web opensourcecms(./src/test/resources/Feactures/google.feature:6)
+]]></failure>
+    </testcase>
+</testsuite>
